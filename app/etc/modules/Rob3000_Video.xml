@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Doghouse_Video>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Doghouse_Video>
+    </modules>
+</config>
