@@ -4,7 +4,7 @@
             <reference name="head">
                 <action method="addCss"><stylesheet>css/base/semantic.css</stylesheet></action>
                 <action method="addCss"><stylesheet>css/custom.css</stylesheet></action>
-
+                <action method="addItem"><type>skin_css</type><name>css/base/semantic.css</name></action>
             </reference>
         </reference>
     </default>
