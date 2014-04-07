@@ -1,0 +1,12 @@
+<layout version="0.1.0">
+    <default>
+        <reference name="root">
+            <reference name="head">
+                <action method="addCss"><stylesheet>css/base/semantic.css</stylesheet></action>
+                <action method="addCss"><stylesheet>css/custom.css</stylesheet></action>
+
+            </reference>
+        </reference>
+    </default>
+
+</layout>
