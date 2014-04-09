@@ -5,6 +5,7 @@
                 <!--<action method="addCss"><stylesheet>css/base/semantic.css</stylesheet></action>-->
                 <!--<action method="addCss"><stylesheet>css/custom.css</stylesheet></action>-->
                 <action method="addItem"><type>skin_css</type><name>stylesheets/base/semantic.css</name></action>
+                <action method="addItem"><type>skin_css</type><name>stylesheets/base/styles.css</name></action>
             </reference>
         </reference>
     </default>

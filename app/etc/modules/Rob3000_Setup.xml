@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rob3000_Setup>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Rob3000_Setup>
+    </modules>
+</config>

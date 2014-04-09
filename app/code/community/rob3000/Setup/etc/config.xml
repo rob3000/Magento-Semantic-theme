@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Rob3000_Setup>
+            <version>0.1.0</version>
+        </Rob3000_Setup>
+    </modules>
+    <global>
+        <resources>
+            <rob3000_setup_setup>
+                <setup>
+                    <module>Rob3000_Setup</module>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </rob3000_setup_setup>
+        </resources>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <Rob3000_Setup>
+                    <file>semantic.xml</file>
+                </Rob3000_Setup>
+            </updates>
+        </layout>
+    </frontend>
+</config>
