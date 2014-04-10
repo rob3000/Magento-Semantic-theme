@@ -1,6 +1,14 @@
+@import "semantic";
 /***********
   Navigation
 ************/
 .nav-container {
- 
+
 }
+
+/***********
+  Buttons
+************/
+.add-to-cart button.button {
+    @extend .ui.primary.button;
+  }
