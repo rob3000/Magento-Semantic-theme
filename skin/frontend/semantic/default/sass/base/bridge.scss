@@ -3,9 +3,16 @@
   Navigation
 ************/
 .nav-container {
-  @extend .ui.horiztonal.menu;
-  .level0.level-top {
-    @extend .ui.dropdown.item;
+  @extend .ui.menu;
+
+  #nav {
+    .level1 {
+      @extend .ui.vertical.menu;
+      a {
+        @extend .menu;
+        @extend .item;
+      }
+    }
   }
 }
 
@@ -13,8 +20,27 @@
 /***********
   Buttons
 ************/
-
+.actions {
+  @extend .ui.basic.buttons;
+}
 .add-to-cart button.button,
 .button.btn-cart{
-    @extend .ui.primary.button;
-  }
+  @extend .ui.button;
+  @extend .ui.mini.button;
+  @extend .ui.primary.button;
+
+
+
+}
+.link-wishlist,
+.link-compare {
+  @extend .ui.button;
+  @extend .ui.mini.button;
+  @extend .ui.primary.button;
+}
+.link-wishlist {
+  @extend .ui.green.button;
+}
+.link-compare {
+  @extend ui.red.button;
+}
