@@ -5,3 +5,4 @@
 # Remove css
 skin/frontend/semantic/default/stylesheets/*
 skin/frontend/semantic/default/.sass-cache/*
+skin/frontend/semantic/default/.sass-cache/

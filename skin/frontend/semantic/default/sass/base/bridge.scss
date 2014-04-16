@@ -3,12 +3,18 @@
   Navigation
 ************/
 .nav-container {
-
+  @extend .ui.horiztonal.menu;
+  .level0.level-top {
+    @extend .ui.dropdown.item;
+  }
 }
+
 
 /***********
   Buttons
 ************/
-.add-to-cart button.button {
+
+.add-to-cart button.button,
+.button.btn-cart{
     @extend .ui.primary.button;
   }
