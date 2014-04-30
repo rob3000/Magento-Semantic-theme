@@ -10,3 +10,5 @@ Goal
 -------------
 
 To use Semantic UI without touching any template files.
+
+Demo - semantic.rob3000.com
